@@ -1,0 +1,21 @@
+# Build artifacts
+target/
+**/target/
+*.class
+*.log
+*.out
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Envs / creds
+.venv/
+.env
+.aws/
+
+# Datasets (keep repo small)
+datasets/
+*.zip
+dataset/

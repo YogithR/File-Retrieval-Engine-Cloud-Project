@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>dev.balerion.fre</groupId>
+  <artifactId>file-retrieval-engine-cloud</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>File Retrieval Engine (Cloud)</name>
+
+  <properties>
+    <maven.compiler.release>21</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <aws.sdk.version>2.26.20</aws.sdk.version>
+    <jackson.version>2.17.2</jackson.version>
+    <slf4j.version>2.0.13</slf4j.version>
+  </properties>
+
+  <modules>
+    <module>core</module>
+    <module>lambda</module>
+    <module>client</module>
+  </modules>
+</project>
+
+
+
+
