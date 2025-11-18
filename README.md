@@ -256,5 +256,4 @@ The system successfully indexes files, stores them in DynamoDB, and performs ran
 
 ---
 
-# 📄 License
-This project is for educational and academic use.
+
